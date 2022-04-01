@@ -15,14 +15,21 @@ public class Main {
         String productModelo = imputdata.nextLine();
         System.out.println("digite el  color del product ");
         String productColor = imputdata.nextLine();
+        System.out.println("digite la referencia del proucto");
+        double productreference = imputdata.nextDouble();
+
         //instanciamos la clase Product
-        Product monitorhp = new Product(producName,productPrise,productModelo,productColor);
+        Product monitorhp = new Product(producName,productPrise,productModelo,productColor,productreference);
         //mostramos los getters
-        System.out.println("el color es  "+monitorhp.getColor());
+        System.out.println(monitorhp.getColor());
         System.out.println(monitorhp.getName());
         double precio = monitorhp.prise;
         System.out.println(precio);
         System.out.println(monitorhp.getModel());
+        //llamoi el color del producto
+        System.out.println(monitorhp.getColor());
+        System.out.println(monitorhp.getReference());
+
 
 
 

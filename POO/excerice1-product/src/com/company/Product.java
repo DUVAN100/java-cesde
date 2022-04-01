@@ -2,28 +2,28 @@ package com.company;
 
 
 public class Product {
-    private String color, reference, name, brad, model;
-    double prise;
+    private String color, name, brad, model;
+    double prise, reference;
 
-    public Product(String name, double prise, String model, String color) {
+    public Product(String name, double prise, String model, String color, double reference) {
         this.color = color;
         this.model=model;
         this.prise = prise;
         this.name = name;
     }
+
+
     public String getColor() {
         return color;
     }
-
     public void setColor(String color) {
         this.color = color;
     }
 
-    public String getReference() {
+    public double getReference() {
         return reference;
     }
-
-    public void setReference(String reference) {
+    public void setReference(double reference) {
         this.reference = reference;
     }
 
