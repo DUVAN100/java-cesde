@@ -10,7 +10,6 @@ public class Main {
         Scanner imputdata = new Scanner(System.in);
         ArrayList<Student> estudiante = new ArrayList<>();
         String Condition = "SI";
-        String conditionGrades = "SI";
         while (Condition.equalsIgnoreCase("si")) {
             ArrayList<Double> grades = new ArrayList<>();
             double average = 0;
@@ -66,11 +65,6 @@ public class Main {
                 estudiante.remove(i);
                 break;
             }
-            
-
-
-
-
         }
 
 
