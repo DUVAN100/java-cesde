@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">MyAppCalculator</string>
+    <string name="txt_primervalor">type the first value</string>
+    <string name="txt_segudovalor">type the second value</string>
+    <string name="rb1">Sumar</string>
+    <string name="rb2">Restar</string>
+    <string name="rb3">Multiplicar</string>
+    <string name="rb4">Dividir</string>
+    <string name="btn">CALCULAR</string>
+    <string name="txt_textview">RESULT</string>
+
+
+
+
+
+
+</resources>
