@@ -18,13 +18,12 @@ public class ClsOpenHelper extends SQLiteOpenHelper {
                     " modelo text not null, " +
                     "valor integer not null," +
                     " activo text not null default 'si' )");
-            db.execSQL("create table TblFactura(cod_factura text primary key," +
+            db.execSQL("create table TblFactura(cod_factura text primary key ," +
                     "fecha text not null," +
                     "placa text not null," +
                     "activo text not null default 'si'," +
                     "constraint Pk_factura foreign key (placa) references TblVehiculo(placa) )");
         }
-
     @Override
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
         db.execSQL("drop table TblVehiculo");{

@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -16,7 +15,7 @@
         android:textSize="25dp" />
 
     <EditText
-        android:id="@+id/etplaca"
+        android:id="@+id/Placa"
         android:layout_width="351dp"
         android:layout_height="48dp"
         android:layout_gravity="center_horizontal"
@@ -93,32 +92,42 @@
         android:id="@+id/buttonGuardar"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="300dp"
+        android:layout_marginLeft="200dp"
+        android:onClick="guardar"
         android:text="Guardar" />
+|
+
     <Button
         android:id="@+id/buttonConsultar"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="300dp"
-        android:text="Consultar" />
+        android:layout_marginLeft="200dp"
+        android:minHeight="48dp"
+        android:onClick="Consultar"
+        android:text="Consultar"
+        tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
     <Button
-        android:id="@+id/buttonEditar"
+        android:id="@+id/Anular"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="300dp"
-        android:text="Editar" />
+        android:layout_marginLeft="200dp"
+        android:onClick="anular"
+        android:text="anular" />
+
     <Button
-        android:id="@+id/buttonCancelar"
+        android:id="@+id/cancelar"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="300dp"
+        android:layout_marginLeft="200dp"
+        android:onClick="cancelar"
         android:text="Cancelar" />
+
     <Button
-        android:id="@+id/buttonRegresar"
+        android:id="@+id/Regresar"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
-        android:text="Regresar"/>
-
-
+        android:onClick="Regresar"
+        android:text="Regresar" />
 </LinearLayout>

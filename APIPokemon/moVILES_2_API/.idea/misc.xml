@@ -4,9 +4,12 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/GIT HUB/java-cesde/APIPokemon/moVILES_2_API/app/src/main/res/layout-land/activity_vehiculo.xml" value="0.20885416666666667" />
+        <entry key="..\:/GIT HUB/java-cesde/APIPokemon/moVILES_2_API/app/src/main/res/layout-land/activitys.xml" value="0.21164021164021163" />
         <entry key="..\:/GIT HUB/java-cesde/APIPokemon/moVILES_2_API/app/src/main/res/layout-sw600dp/activity_vehiculo.xml" value="0.1875" />
+        <entry key="..\:/GIT HUB/java-cesde/APIPokemon/moVILES_2_API/app/src/main/res/layout-v23/activity_factura.xml" value="0.24895833333333334" />
+        <entry key="..\:/GIT HUB/java-cesde/APIPokemon/moVILES_2_API/app/src/main/res/layout/activity_factura.xml" value="0.2" />
         <entry key="..\:/GIT HUB/java-cesde/APIPokemon/moVILES_2_API/app/src/main/res/layout/activity_main.xml" value="0.1" />
-        <entry key="..\:/GIT HUB/java-cesde/APIPokemon/moVILES_2_API/app/src/main/res/layout/activity_vehiculo.xml" value="0.2359375" />
+        <entry key="..\:/GIT HUB/java-cesde/APIPokemon/moVILES_2_API/app/src/main/res/layout/activity_vehiculo.xml" value="0.17131474103585656" />
       </map>
     </option>
   </component>
@@ -15,5 +18,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.176" />
+      </ProjectState>
+    </option>
   </component>
 </project>
